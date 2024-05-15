@@ -30,6 +30,7 @@ body {
   align-items: center;
   gap: 20px;
   padding: 10px 0;
+  position: fixed;
 }
 .header-two {
   display: flex;
@@ -119,6 +120,10 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 20px;
+}
+.sub-header .sticky {
+  position: fixed;
+  background-color: #fff2ea;
 }
 .sub-header {
   display: flex;
